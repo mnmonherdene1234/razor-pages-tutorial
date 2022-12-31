@@ -1,5 +1,4 @@
 using RazorPages.Services;
-using RazorPages.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
