@@ -13,7 +13,7 @@ public class IndexModel : PageModel
     public IndexModel(IEmployeeRepository employeeRepository)
     {
         this.employeeRepository = employeeRepository;
-        Message = "Hello World";
+        Message = "Employees";
     }
 
     public void OnGet()
