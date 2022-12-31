@@ -13,7 +13,7 @@ public class DetailsModel : PageModel
         this.employeeRepository = employeeRepository;
     }
 
-    public void OnGet(int id)
+    public void OnGet(int id = 1)
     {
         Employee = employeeRepository.GetEmployee(id);
     }
