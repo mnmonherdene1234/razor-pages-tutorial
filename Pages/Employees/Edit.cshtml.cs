@@ -9,7 +9,7 @@ public class EditModel : PageModel
 {
     private readonly IEmployeeRepository employeeRepository;
     [BindProperty]
-    public Employee Employee { get; set; }
+    public Employee? Employee { get; set; }
 
     public EditModel(IEmployeeRepository employeeRepository)
     {
@@ -27,5 +27,11 @@ public class EditModel : PageModel
         {
             return RedirectToPage("/NotFound");
         }
+    }
+
+    public IActionResult OnPost(Employee employee)
+    {
+        Employee = employeeRepository.Update(employee);
+        return RedirectToPage("/Employees/Index");
     }
 }
