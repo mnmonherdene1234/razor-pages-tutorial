@@ -6,4 +6,5 @@ public interface IEmployeeRepository
 {
     IEnumerable<Employee> GetEmployees();
     Employee? GetEmployee(int id);
+    Employee? Update(Employee updatedEmployee);
 }

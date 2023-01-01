@@ -1,12 +1,31 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using RazorPages.Services;
+using RazorPages.Models;
 
 namespace RazorPages.Pages.Employees;
 
 public class EditModel : PageModel
 {
-    public void OnGet()
-    {
+    private readonly IEmployeeRepository employeeRepository;
+    [BindProperty]
+    public Employee Employee { get; set; }
 
+    public EditModel(IEmployeeRepository employeeRepository)
+    {
+        this.employeeRepository = employeeRepository;
+    }
+    public IActionResult OnGet(int id)
+    {
+        Employee = employeeRepository.GetEmployee(id);
+
+        if (Employee != null)
+        {
+            return Page();
+        }
+        else
+        {
+            return RedirectToPage("/NotFound");
+        }
     }
 }

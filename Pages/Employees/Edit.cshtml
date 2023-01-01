@@ -1,2 +1,36 @@
-@page
+@page "{id}"
 @model RazorPages.Pages.Employees.EditModel
+
+<form method="post" class="mt-3">
+    <input hidden type="text" asp-for="Employee.Id">
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Name:</label>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" asp-for="Employee.Name" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-2">
+            <label class="col-form-label">Email:</label>
+        </div>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" asp-for="Employee.Email" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-2">
+            <label class="col-form-label">Department:</label>
+        </div>
+        <div class="col-sm-10">
+            <select class="form-control" asp-for="Employee.Department" asp-items="Html.GetEnumSelectList<Dept>()">
+                <option value="">Please Select</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Edit</button>
+            <a class="btn btn-primary" asp-page="/Employees/Index">Back</a>
+        </div>
+    </div>
+</form>
