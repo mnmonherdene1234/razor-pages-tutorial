@@ -1,4 +1,5 @@
 using RazorPages.Services;
+using RazorPages;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.Configure<RouteOptions>((options) =>
 {
     options.LowercaseUrls = true;
     options.LowercaseQueryStrings = true;
+    options.ConstraintMap.Add("even", typeof(EvenConstraint));
 });
 
 var app = builder.Build();
