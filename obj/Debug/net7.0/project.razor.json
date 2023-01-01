@@ -16585,6 +16585,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/mn/Documents/RazorPages/Pages/NotFound.cshtml",
+      "TargetPath": "Pages\\NotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/mn/Documents/RazorPages/Pages/Employees/Details.cshtml",
       "TargetPath": "Pages\\Employees\\Details.cshtml",
       "FileKind": "mvc"
@@ -16592,6 +16597,11 @@
     {
       "FilePath": "/home/mn/Documents/RazorPages/Pages/Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/mn/Documents/RazorPages/Pages/Employees/Edit.cshtml",
+      "TargetPath": "Pages\\Employees\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
