@@ -1,14 +1,16 @@
-@page "/employees/view/{id:int?}"
+@page "/employees/view/{id:range(1,100):int?}"
 @model RazorPages.Pages.Employees.DetailsModel
 @{
     ViewData["Title"] = Model.Employee == null ? "Not Found" : Model.Employee.Name;
+
+    string Name = Model.Employee.Name ?? "Not Found";
 }
 
 <div class="row justify-content-center m-3">
     <div class="col-sm-8">
         <div class="card">
             <div class="card-header">
-                <h1>@Model.Employee.Name</h1>
+                <h1>@Name</h1>
             </div>
             <div class="card-body text-center">
                 <img class="card-img-top" src="@Model.Employee.Photo" alt="@Model.Employee.Name"
