@@ -29,9 +29,13 @@ public class EditModel : PageModel
         }
     }
 
-    public IActionResult OnPost(Employee employee)
+    public IActionResult OnPost()
     {
-        Employee = employeeRepository.Update(employee);
-        return RedirectToPage("/Employees/Index");
+        if (Employee != null)
+        {
+            Employee = employeeRepository.Update(Employee);
+        }
+
+        return RedirectToPage("Index");
     }
 }
