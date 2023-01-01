@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/d5207b57-4956-410d-8ca6-a112798eb1fd_no-image.jpg",
+      "PackagePath": "staticwebassets/images/d5207b57-4956-410d-8ca6-a112798eb1fd_no-image.jpg"
+    },
+    {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/f9dff1d5-3e9f-48e7-be69-10019dfde8b4_no-image.jpg",
+      "PackagePath": "staticwebassets/images/f9dff1d5-3e9f-48e7-be69-10019dfde8b4_no-image.jpg"
+    },
+    {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/ffb2c2ea-44ab-4a82-9002-2f985bc92deb_no-image.jpg",
+      "PackagePath": "staticwebassets/images/ffb2c2ea-44ab-4a82-9002-2f985bc92deb_no-image.jpg"
+    },
+    {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/img1.jpeg",
+      "PackagePath": "staticwebassets/images/img1.jpeg"
+    },
+    {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/img2.jpg",
+      "PackagePath": "staticwebassets/images/img2.jpg"
+    },
+    {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/img3.jpeg",
+      "PackagePath": "staticwebassets/images/img3.jpeg"
+    },
+    {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/no-image.jpg",
+      "PackagePath": "staticwebassets/images/no-image.jpg"
+    },
+    {
       "Id": "/home/mn/Documents/RazorPages/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

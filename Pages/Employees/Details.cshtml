@@ -1,4 +1,4 @@
-@page "/employees/view/{id:even:range(1,100):int?}"
+@page "/employees/view/{id:range(1,100):int?}"
 @using RazorPages.Models
 @model RazorPages.Pages.Employees.DetailsModel
 @{
@@ -7,8 +7,7 @@
     int id = 1;
     string name = "Not Found";
     string email = "notfound@gg.mn";
-    string photo =
-    "https://media.istockphoto.com/id/1338134336/photo/headshot-portrait-african-30s-man-smile-look-at-camera.jpg?b=1&s=170667a&w=0&k=20&c=j-oMdWCMLx5rIx-_W33o3q3aW9CiAWEvv9XrJQ3fTMU=";
+    string photo = "~/images/no-image.jpg";
     Dept department = Dept.None;
 
     if (Model.Employee != null)
@@ -16,7 +15,7 @@
         id = Model.Employee.Id;
         name = Model.Employee.Name ?? name;
         email = Model.Employee.Email ?? email;
-        photo = Model.Employee.Photo ?? photo;
+        photo = $"~/images/{Model.Employee.Photo}" ?? photo;
         department = Model.Employee.Department ?? department;
     }
 }

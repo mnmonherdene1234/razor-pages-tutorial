@@ -7,11 +7,12 @@ namespace RazorPages.Pages.Employees;
 
 public class DetailsModel : PageModel
 {
-    public Employee? Employee { get; set; }
+    public Employee Employee { get; set; }
     public IEmployeeRepository employeeRepository { get; set; }
     public DetailsModel(IEmployeeRepository employeeRepository)
     {
         this.employeeRepository = employeeRepository;
+        Employee = new Employee();
     }
 
     public IActionResult OnGet(int id = 1)
