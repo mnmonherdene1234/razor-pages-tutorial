@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/t1h4suesYRc3bCwY3LIyVkfnCByBbXvu4+xEb+flo9GVRc1dIzR/jl11X20KqhrDso5+vLz93qleTmqptLKFw==",
+  "dgSpecHash": "VSSQpAb5qhfjKzqd1oOrKcGoBC60TUxXEqn1ub9x4I2R9wBmg0ldAiWwelMPVIW4eHWjkkTNqsMVYEeYZ+vTpA==",
   "success": true,
-  "projectFilePath": "/home/mn/Documents/RazorPages/RazorPages.csproj",
+  "projectFilePath": "/root/homework/razor-pages-tutorial/RazorPages.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

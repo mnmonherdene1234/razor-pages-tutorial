@@ -12,6 +12,7 @@ builder.Services.Configure<RouteOptions>((options) =>
     options.LowercaseQueryStrings = true;
     options.ConstraintMap.Add("even", typeof(EvenConstraint));
 });
+builder.WebHost.UseUrls("http://localhost:8200/");
 
 var app = builder.Build();
 
