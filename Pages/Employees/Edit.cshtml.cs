@@ -13,6 +13,9 @@ public class EditModel : PageModel
     public Employee? Employee { get; set; }
     [BindProperty]
     public IFormFile? Photo { get; set; }
+    [BindProperty]
+    public bool Notify { get; set; }
+    public string? Message { get; set; }
 
     public EditModel(IEmployeeRepository employeeRepository, IWebHostEnvironment webHostEnvironment)
     {
@@ -35,23 +38,47 @@ public class EditModel : PageModel
 
     public IActionResult OnPost()
     {
-        if (Photo != null && Employee != null)
+        if (ModelState.IsValid)
         {
-            if (Employee.Photo != null)
+
+            if (Photo != null && Employee != null)
             {
-                string filepath = Path.Combine(webHostEnvironment.WebRootPath, "images", Employee.Photo);
-                System.IO.File.Delete(filepath);
+                if (Employee.Photo != null)
+                {
+                    string filepath = Path.Combine(webHostEnvironment.WebRootPath, "images", Employee.Photo);
+                    System.IO.File.Delete(filepath);
+                }
+
+                Employee.Photo = ProcessUploadFile();
             }
 
-            Employee.Photo = ProcessUploadFile();
-        }
+            if (Employee != null)
+            {
+                Employee = employeeRepository.Update(Employee);
+            }
 
-        if (Employee != null)
+            return RedirectToPage("Index");
+        }
+        else
         {
-            Employee = employeeRepository.Update(Employee);
+            return Page();
+        }
+    }
+
+    public IActionResult OnPostUpdateNotificationPreferences(int id)
+    {
+        if (Notify)
+        {
+            Message = "Thank you for turning on notification";
+        }
+        else
+        {
+            Message = "You have turned off email notification";
         }
 
-        return RedirectToPage("Index");
+        TempData["message"] = Message;
+
+        return RedirectToPage("Details", new { id = id });
     }
 
     public string? ProcessUploadFile()

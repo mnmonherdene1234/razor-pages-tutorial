@@ -8,6 +8,8 @@ namespace RazorPages.Pages.Employees;
 public class DetailsModel : PageModel
 {
     public Employee Employee { get; set; }
+    [TempData]
+    public string? Message { get; set; }
     public IEmployeeRepository employeeRepository { get; set; }
     public DetailsModel(IEmployeeRepository employeeRepository)
     {

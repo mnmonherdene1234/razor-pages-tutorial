@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg",
+      "PackagePath": "staticwebassets/images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg"
+    },
+    {
+      "Id": "/home/mn/Documents/RazorPages/wwwroot/images/6570b55f-1cac-4978-a89f-a9053789c035_img3.jpeg",
+      "PackagePath": "staticwebassets/images/6570b55f-1cac-4978-a89f-a9053789c035_img3.jpeg"
+    },
+    {
       "Id": "/home/mn/Documents/RazorPages/wwwroot/images/d5207b57-4956-410d-8ca6-a112798eb1fd_no-image.jpg",
       "PackagePath": "staticwebassets/images/d5207b57-4956-410d-8ca6-a112798eb1fd_no-image.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q94eEy552d/JT0jmuWbqiuYAigNGtJxsH8U15lTjlHI=",
+  "Hash": "gy1GzopDeWcoPQwkRMK9yHSKSb7l0Xhjlxus58SMebo=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/mn/Documents/RazorPages/wwwroot/images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mn/Documents/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg"
+    },
+    {
+      "Identity": "/home/mn/Documents/RazorPages/wwwroot/images/6570b55f-1cac-4978-a89f-a9053789c035_img3.jpeg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mn/Documents/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "images/6570b55f-1cac-4978-a89f-a9053789c035_img3.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/6570b55f-1cac-4978-a89f-a9053789c035_img3.jpeg"
     },
     {
       "Identity": "/home/mn/Documents/RazorPages/wwwroot/images/d5207b57-4956-410d-8ca6-a112798eb1fd_no-image.jpg",
