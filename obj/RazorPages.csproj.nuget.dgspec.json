@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/root/homework/razor-pages-tutorial/RazorPages.csproj": {}
+    "/home/mn/homework/razor-pages-tutorial/RazorPages.csproj": {}
   },
   "projects": {
-    "/root/homework/razor-pages-tutorial/RazorPages.csproj": {
+    "/home/mn/homework/razor-pages-tutorial/RazorPages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/homework/razor-pages-tutorial/RazorPages.csproj",
+        "projectUniqueName": "/home/mn/homework/razor-pages-tutorial/RazorPages.csproj",
         "projectName": "RazorPages",
-        "projectPath": "/root/homework/razor-pages-tutorial/RazorPages.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/homework/razor-pages-tutorial/obj/",
+        "projectPath": "/home/mn/homework/razor-pages-tutorial/RazorPages.csproj",
+        "packagesPath": "/home/mn/.nuget/packages/",
+        "outputPath": "/home/mn/homework/razor-pages-tutorial/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/mn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

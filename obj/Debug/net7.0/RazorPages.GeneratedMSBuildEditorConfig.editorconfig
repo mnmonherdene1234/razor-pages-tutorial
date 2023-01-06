@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorPages
 build_property.RootNamespace = RazorPages
-build_property.ProjectDir = /home/mn/Documents/RazorPages/
+build_property.ProjectDir = /home/mn/homework/razor-pages-tutorial/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/mn/Documents/RazorPages
+build_property.MSBuildProjectDirectory = /home/mn/homework/razor-pages-tutorial
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/mn/Documents/RazorPages/Pages/Employees/Details.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Employees/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/Employees/Edit.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Employees/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/Employees/Index.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/Error.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/Index.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/NotFound.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/Privacy.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/_ViewImports.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/_ViewStart.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mn/Documents/RazorPages/Pages/Shared/_Layout.cshtml]
+[/home/mn/homework/razor-pages-tutorial/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8fjxvvsmas
