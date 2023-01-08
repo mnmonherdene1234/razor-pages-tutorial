@@ -1,0 +1,19 @@
+@model Employee
+@{
+    var showButtons = (bool)ViewData["ShowButtons"];
+}
+
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="~/images/@Model.Photo" alt="@Model.Name" style="height: 200px;">
+    @if (showButtons)
+    {
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <div class="card-footer text-center">
+                <a asp-page="/Employees/Details" asp-route-id="@Model.Id" class="btn btn-primary m-1">View</a>
+                <a asp-page="/Employees/Edit" asp-route-id="@Model.Id" class="btn btn-primary m-1">Edit</a>
+                <a asp-page="/Employees/Delete" asp-route-id="@Model.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>

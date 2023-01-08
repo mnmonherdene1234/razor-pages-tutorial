@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/mn/homework/razor-pages-tutorial
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/mn/homework/razor-pages-tutorial/Pages/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/mn/homework/razor-pages-tutorial/Pages/Employees/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/mn/homework/razor-pages-tutorial/Pages/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mn/homework/razor-pages-tutorial/Pages/Employees/_DisplayEmployeePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL19EaXNwbGF5RW1wbG95ZWVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/mn/homework/razor-pages-tutorial/Pages/Error.cshtml]

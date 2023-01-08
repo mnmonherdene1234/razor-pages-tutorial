@@ -60,4 +60,16 @@ public class MockEmployeeRepository : IEmployeeRepository
             return null;
         }
     }
+
+    public Employee? Delete(int id)
+    {
+        Employee? employee = _employees.FirstOrDefault(e => e.Id == id);
+
+        if (employee != null)
+        {
+            _employees.Remove(employee);
+        }
+
+        return employee;
+    }
 }

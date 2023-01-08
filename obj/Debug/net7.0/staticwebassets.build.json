@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RmNGcN8GoJMVlZMKtGXZLfNvzv29PspVKHJ4xZLfEo4=",
+  "Hash": "JImbhPN+hoekzGRLrN78byItXhCDAFw8vI9drWaWfi0=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/6570b55f-1cac-4978-a89f-a9053789c035_img3.jpeg"
+    },
+    {
+      "Identity": "/home/mn/homework/razor-pages-tutorial/wwwroot/images/6df980d8-6276-486c-9db9-78e2ccefba2f_cat.jpeg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mn/homework/razor-pages-tutorial/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "images/6df980d8-6276-486c-9db9-78e2ccefba2f_cat.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/6df980d8-6276-486c-9db9-78e2ccefba2f_cat.jpeg"
     },
     {
       "Identity": "/home/mn/homework/razor-pages-tutorial/wwwroot/images/d5207b57-4956-410d-8ca6-a112798eb1fd_no-image.jpg",
