@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/mn/homework/razor-pages-tutorial/wwwroot/images/5fd3b3ff-4ff4-4d98-af89-1424242f2988_unnamed.webp",
+      "PackagePath": "staticwebassets/images/5fd3b3ff-4ff4-4d98-af89-1424242f2988_unnamed.webp"
+    },
+    {
       "Id": "/home/mn/homework/razor-pages-tutorial/wwwroot/images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg",
       "PackagePath": "staticwebassets/images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg"
     },

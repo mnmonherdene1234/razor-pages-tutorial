@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JImbhPN+hoekzGRLrN78byItXhCDAFw8vI9drWaWfi0=",
+  "Hash": "uktCj8Lxgtdt7gRegPfLIUvyRgMouQ5xb+oOyC2XOq0=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/mn/homework/razor-pages-tutorial/wwwroot/images/5fd3b3ff-4ff4-4d98-af89-1424242f2988_unnamed.webp",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mn/homework/razor-pages-tutorial/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "images/5fd3b3ff-4ff4-4d98-af89-1424242f2988_unnamed.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/5fd3b3ff-4ff4-4d98-af89-1424242f2988_unnamed.webp"
     },
     {
       "Identity": "/home/mn/homework/razor-pages-tutorial/wwwroot/images/640f3e06-fd14-4794-ac40-f5f8efa2412b_no-image.jpg",
